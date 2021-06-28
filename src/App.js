@@ -9,12 +9,14 @@ function App() {
   return (
       <CategoriasProvider>
         <RecetasProvider>
+
           <Header />
           <div className="container mt-5">
             <div className="row">
               <Formulario />
             </div>
           </div>
+          
         </RecetasProvider>
       </CategoriasProvider>
   );
